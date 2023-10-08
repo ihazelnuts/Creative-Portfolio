@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.masthead{
+    background: url(assets/img/main.png);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+/* Custom Background */
+.conic-gradient1{
+    background: conic-gradient(from 180deg at 50% 50%, rgba(0, 0, 0, 0.60) 0deg, rgba(173, 0, 166, 0.60) 84.375deg, rgba(135, 194, 50, 0.60) 221.24999284744263deg, rgba(0, 0, 0, 0.60) 360deg);
+}
+.conic-gradient2{
+    background: conic-gradient(from 180deg at 50% 50%, rgba(249, 239, 226, 0.74) 0deg, rgba(248, 209, 152, 0.74) 84.375deg, rgba(254, 173, 141, 0.74) 221.24999284744263deg, rgba(255, 244, 228, 0.74) 360deg);
+}
+.coffee-bg{
+    background: url(assets/img/coffee-bg.png);
+}
+.bg-lightgreen{
+    background: #FBFFE9;
+}
+.bg-lightpink{
+    background: #FDF2F2;
+}
+
+/* Custom Fonts */
+h1{
+    font-weight: 900;
+    font-size: 80px;
+}
+h2{
+    font-weight: 800;
+    font-size: 60px;
+}
+h5{
+    font-weight: 200;
+}
+
+/* Custom Elements */
+hr{
+    width: 20%;
+    border-top: solid #000 3px;
+}
+
+#imageonly {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+  }
